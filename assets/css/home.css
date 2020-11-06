@@ -1,0 +1,109 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #f2f6e9;
+}
+
+.header {
+	background-image: url("../images/421674-antique-shop-vintage-design-interior-room-748x561.jpg");
+	background-size: cover;
+	background-position: center;
+	position: sticky;
+}
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 16%;
+	background: rgba(0, 0, 0, 0.63);
+}
+
+.to_center {
+	margin: auto;
+	width: 50%;
+	border: 1px solid seagreen;
+	padding: 5px;
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #6ab446;
+}
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+/* Formatting the button cell to fit properly */
+.display_button {
+	width: 30px;
+}
+
+.page-footer {
+	background-color: #222;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+.footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
+
+@media (max-width: 575.98px) {
+	.description {
+		left: 0;
+		padding: 0 15px;
+		position: absolute;
+		top: 10%;
+		transform: none;
+		text-align: center;
+	}
+	.description h1 {
+		font-size: 2em;
+	}
+	.description p {
+		font-size: 1.2rem;
+	}
+	.features {
+		margin: 0;
+	}
+}
+/* Style the list */
+ul.breadcrumb {
+	padding: 10px 16px;
+	list-style: none;
+	background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+	display: inline;
+	font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+	color: #0275d8;
+	text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+	color: #01447e;
+	text-decoration: underline;
+}
