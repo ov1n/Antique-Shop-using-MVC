@@ -1,7 +1,7 @@
 # Antique-Shop-using-MVC
-A simple primitive application made using Codeigniter under the MVC architecture
+A simple primitive application made using Codeigniter under MVC architecture.
 
-# Steps for deploy:
+## Steps for deploy:
 
 1. Copy the contents of the  repo into our localhost system. (Xampp, Wamp etc.)
 2. Import the `thenus_antique_shop.sql` dump file into your DBMS.
